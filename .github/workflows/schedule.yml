@@ -8,3 +8,4 @@ on:
 jobs:
   attendance:
     uses: enpitsuLin/skland-daily-attendance/.github/workflows/schedule.yml@main
+    secrets: inherit
