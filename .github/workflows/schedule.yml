@@ -7,7 +7,7 @@ on:
 
 jobs:
   attendance:
-    uses: enpitsuLin/skland-daily-attendance/.github/workflows/schedule.yml@main
+    uses: AEtherside/skland-daily-attendance/.github/workflows/schedule.yml@main
     secrets:
       SKLAND_TOKENS: ${{ secrets.SKLAND_TOKENS }}
       SKLAND_NOTIFICATION_URLS: ${{ secrets.SKLAND_NOTIFICATION_URLS }}
